@@ -19,7 +19,7 @@ The p3k tool enables inspecting and deconstructing a stream and unlocks its obse
 - [x] stream playback: pause, step-by-step, slow-down
 - [ ] :rocket: observation volumes to track violations on assumptions :rocket:
  
-## Upcoming 
+## Future Ideas
 - 🔥 neural decoding for structure analysis and debugging. 
 
 ## Requirements and Current Limitations
@@ -50,7 +50,7 @@ p3k <source stream> | <encoder network model>
 | file stream with observation volume | p3k ./depth_file_stream.png ./obs_volume.obj |
 | batch      | p3k /data/testing/*.png |
 
-Coming soon 
+## Future Additions
 |  mode    | example | 
 | ------------ | ------------ |
 | network socket stream   | p3k localhost 2500|
